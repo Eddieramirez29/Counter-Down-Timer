@@ -18,3 +18,15 @@ body
   width: 100vh;
   height: 60vh;
 }
+
+.icon-container 
+{
+  display: flex;
+  justify-content: space-between; /* Espacia los íconos uniformemente */
+  width: 100%;                    /* Ocupa el ancho completo del contenedor */
+  max-width: 120px;               /* Opcional: Define un ancho máximo para el contenedor */
+  margin: 0 auto;                /* Opcional: Centra el contenedor horizontalmente */
+  position: absolute;
+  top:85%;
+  left: 45%;
+}
