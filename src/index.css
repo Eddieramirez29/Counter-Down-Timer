@@ -19,6 +19,15 @@ body
   height: 60vh;
 }
 
+.countdown
+{
+  display: flex;
+  justify-content: space-between; /* Espacia los íconos uniformemente */
+  width: 100%;                    /* Ocupa el ancho completo del contenedor */
+  max-width: 500px;               /* Opcional: Define un ancho máximo para el contenedor */
+  margin: 0 auto;
+}
+
 .icon-container 
 {
   display: flex;
