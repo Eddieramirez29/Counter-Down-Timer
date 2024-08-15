@@ -9,6 +9,7 @@ function CounterDown()
 {
     return(
         <>
+            <h1 className="title">WE´RE ARE LAUNCHING SOON</h1>
             <img className="hills" src={hills} alt="Hills" />
             <img className="stars" src={stars} alt="Stars"/>
             <div className="icon-container">

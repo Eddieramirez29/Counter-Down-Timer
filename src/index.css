@@ -30,3 +30,13 @@ body
   top:85%;
   left: 45%;
 }
+.title
+{
+  display: flex;
+  justify-content: space-between; /* Espacia los íconos uniformemente */
+  width: 100%;                    /* Ocupa el ancho completo del contenedor */
+  max-width: 500px;               /* Opcional: Define un ancho máximo para el contenedor */
+  margin: 0 auto;
+  padding: 50px;
+  /* border: 2px solid black ; */
+}
