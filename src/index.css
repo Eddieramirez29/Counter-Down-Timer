@@ -88,3 +88,9 @@ body
   color: white;
   /* border: 2px solid black ; */
 }
+
+.facebook:hover, .instagram:hover, .pinterest:hover
+{
+  background-color:  #fb5e84;
+  cursor: pointer;
+}
