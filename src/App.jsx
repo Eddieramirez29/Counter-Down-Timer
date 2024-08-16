@@ -1,8 +1,7 @@
 import CounterDown  from "./CounterDown";
 
-function App() 
+function App()
 {
- 
 
   return (
     <>

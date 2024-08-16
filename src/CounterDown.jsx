@@ -45,11 +45,19 @@ return (
     <>
     <h1 className="title">WE´RE LAUNCHING SOON</h1>
     <div className="countdown">
-        <div className="countdown-item">{timeLeft.days} <span>Días</span></div>
-        <div className="countdown-item">{timeLeft.hours} <span>Horas</span></div>
-        <div className="countdown-item">{timeLeft.minutes} <span>Minutos</span></div>
-        <div className="countdown-item">{timeLeft.seconds} <span>Segundos</span></div>
+        <div className="countdown-item">{timeLeft.days} </div>
+        <div className="countdown-item">{timeLeft.hours} </div>
+        <div className="countdown-item">{timeLeft.minutes}</div>
+        <div className="countdown-item">{timeLeft.seconds}</div>
     </div>
+
+    <div className='names'>
+        <span className='names-item'>DÍAS</span>
+        <span className='names-item'>HORAS</span>
+        <span className='names-item'>MINUTOS</span>
+        <span className='names-item'>SEGUNDOS</span>
+    </div>
+    
     <img className="hills" src={hills} alt="Hills" />
     <img className="stars" src={stars} alt="Stars" />
     <div className="icon-container">
