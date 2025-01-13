@@ -16,6 +16,7 @@ function CounterDown()
     });
 
 useEffect(() => {
+    //This constant must be modified every new year(May have other cases)
     const targetDate = new Date("2025-12-31T23:59:59").getTime();
 
     const updateCountdown = () => {
